@@ -53,6 +53,7 @@ namespace eSportsRanking
                 item.SubItems.Add(team.winCount.ToString());
                 item.SubItems.Add(team.lossCount.ToString());
                 item.SubItems.Add(team.gameCount.ToString());
+                item.SubItems.Add(team.winRatio.ToString());
             }
         }
 
