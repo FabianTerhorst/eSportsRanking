@@ -24,6 +24,7 @@ namespace eSportsRanking
 
         private void btnAddTeam_Click(object sender, EventArgs e)
         {
+            txtbxName.Text = "";
             teams.Add(new Team(txtbxName.Text));
             refreshTeamList();
         }
