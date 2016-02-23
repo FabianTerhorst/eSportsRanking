@@ -14,15 +14,15 @@ namespace eSportsRanking
         }
 
         public String name { get; set; }
-        public int winRatio
+        public double winRatio
         {
             get {
-                return winCount / Math.Max(winCount + lossCount, gameCount);
+                return winCount /(winCount + lossCount)*100;
             }
         }
-        public int lossCount { get; set; }
-        public int winCount { get; set; }
-        public int gameCount
+        public double lossCount { get; set; }
+        public double winCount { get; set; }
+        public double gameCount
         { get
             {
                 return lossCount + winCount;
