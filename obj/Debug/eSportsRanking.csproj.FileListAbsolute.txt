@@ -9,3 +9,11 @@ D:\Users\Raphael\Documents\GitHub\eSportsRanking\obj\Debug\eSportsRanking.Proper
 D:\Users\Raphael\Documents\GitHub\eSportsRanking\obj\Debug\eSportsRanking.csproj.GenerateResource.Cache
 D:\Users\Raphael\Documents\GitHub\eSportsRanking\obj\Debug\eSportsRanking.exe
 D:\Users\Raphael\Documents\GitHub\eSportsRanking\obj\Debug\eSportsRanking.pdb
+C:\Users\fabia\Documents\GitHub\eSportsRanking\obj\Debug\eSportsRanking.csprojResolveAssemblyReference.cache
+C:\Users\fabia\Documents\GitHub\eSportsRanking\obj\Debug\eSportsRanking.Properties.Resources.resources
+C:\Users\fabia\Documents\GitHub\eSportsRanking\obj\Debug\eSportsRanking.csproj.GenerateResource.Cache
+C:\Users\fabia\Documents\GitHub\eSportsRanking\obj\Debug\eSportsRanking.exe
+C:\Users\fabia\Documents\GitHub\eSportsRanking\obj\Debug\eSportsRanking.pdb
+C:\Users\fabia\Documents\GitHub\eSportsRanking\bin\Debug\eSportsRanking.exe
+C:\Users\fabia\Documents\GitHub\eSportsRanking\bin\Debug\eSportsRanking.pdb
+C:\Users\fabia\Documents\GitHub\eSportsRanking\obj\Debug\eSportsRanking.Form1.resources

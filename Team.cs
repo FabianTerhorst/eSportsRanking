@@ -8,16 +8,16 @@ namespace eSportsRanking
 {
     public class Team
     {
-        public Team()
+        public Team(String name)
         {
-
+            this.name = name;
         }
 
         public String name { get; set; }
         public int winRatio
         {
             get {
-                return winCount / Math.MAX(winCount + lossCount, gameCount);
+                return winCount / Math.Max(winCount + lossCount, gameCount);
             }
         }
         public int lossCount { get; set; }
