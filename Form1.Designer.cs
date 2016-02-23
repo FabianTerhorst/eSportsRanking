@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem("TestTeam");
-            System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem("TestSpiel");
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("TestTeam");
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem("TestSpiel");
             this.lvLadder = new System.Windows.Forms.ListView();
             this.teamNames = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.gamesWon = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -44,6 +44,8 @@
             this.cbxTeam1 = new System.Windows.Forms.ComboBox();
             this.cbxTeam2 = new System.Windows.Forms.ComboBox();
             this.btnAddGame = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lvLadder
@@ -54,7 +56,7 @@
             this.gamesLost,
             this.gamesCount});
             this.lvLadder.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem5});
+            listViewItem1});
             this.lvLadder.Location = new System.Drawing.Point(12, 12);
             this.lvLadder.Name = "lvLadder";
             this.lvLadder.Size = new System.Drawing.Size(389, 377);
@@ -88,22 +90,22 @@
             this.gameTeam1,
             this.gameTeam2});
             this.lvGames.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem6});
+            listViewItem2});
             this.lvGames.Location = new System.Drawing.Point(409, 12);
             this.lvGames.Name = "lvGames";
-            this.lvGames.Size = new System.Drawing.Size(389, 377);
+            this.lvGames.Size = new System.Drawing.Size(389, 358);
             this.lvGames.TabIndex = 1;
             this.lvGames.UseCompatibleStateImageBehavior = false;
             this.lvGames.View = System.Windows.Forms.View.Details;
             // 
             // gameTeam1
             // 
-            this.gameTeam1.Text = "Team 1";
+            this.gameTeam1.Text = "Gewinner";
             this.gameTeam1.Width = 193;
             // 
             // gameTeam2
             // 
-            this.gameTeam2.Text = "Team 2";
+            this.gameTeam2.Text = "Verlierer";
             this.gameTeam2.Width = 192;
             // 
             // btnAddTeam
@@ -158,11 +160,31 @@
             this.btnAddGame.UseVisualStyleBackColor = true;
             this.btnAddGame.Click += new System.EventHandler(this.btnAddGame_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(409, 377);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(85, 13);
+            this.label2.TabIndex = 12;
+            this.label2.Text = "Gewinner-Team:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(602, 377);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(78, 13);
+            this.label3.TabIndex = 13;
+            this.label3.Text = "Verlierer-Team:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(810, 454);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.btnAddGame);
             this.Controls.Add(this.cbxTeam2);
             this.Controls.Add(this.cbxTeam1);
@@ -194,6 +216,8 @@
         private System.Windows.Forms.ColumnHeader gamesCount;
         private System.Windows.Forms.ColumnHeader gameTeam1;
         private System.Windows.Forms.ColumnHeader gameTeam2;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }
 
