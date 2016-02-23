@@ -46,6 +46,7 @@
             this.btnAddGame = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.gamesPercentage = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // lvLadder
@@ -54,7 +55,8 @@
             this.teamNames,
             this.gamesWon,
             this.gamesLost,
-            this.gamesCount});
+            this.gamesCount,
+            this.gamesPercentage});
             this.lvLadder.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
             listViewItem1});
             this.lvLadder.Location = new System.Drawing.Point(12, 12);
@@ -67,17 +69,17 @@
             // teamNames
             // 
             this.teamNames.Text = "Teamname";
-            this.teamNames.Width = 106;
+            this.teamNames.Width = 80;
             // 
             // gamesWon
             // 
             this.gamesWon.Text = "Gewonnene Spiele";
-            this.gamesWon.Width = 102;
+            this.gamesWon.Width = 55;
             // 
             // gamesLost
             // 
             this.gamesLost.Text = "Verlorene Spiele";
-            this.gamesLost.Width = 89;
+            this.gamesLost.Width = 81;
             // 
             // gamesCount
             // 
@@ -178,6 +180,11 @@
             this.label3.TabIndex = 13;
             this.label3.Text = "Verlierer-Team:";
             // 
+            // gamesPercentage
+            // 
+            this.gamesPercentage.Text = "% Gewonnnen";
+            this.gamesPercentage.Width = 81;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -218,6 +225,7 @@
         private System.Windows.Forms.ColumnHeader gameTeam2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ColumnHeader gamesPercentage;
     }
 }
 
