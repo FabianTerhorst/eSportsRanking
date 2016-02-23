@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("TestTeam");
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem("TestSpiel");
             this.lvLadder = new System.Windows.Forms.ListView();
             this.lvGames = new System.Windows.Forms.ListView();
             this.btnAddTeam = new System.Windows.Forms.Button();
@@ -40,23 +42,43 @@
             this.cbxTeam1 = new System.Windows.Forms.ComboBox();
             this.cbxTeam2 = new System.Windows.Forms.ComboBox();
             this.btnAddGame = new System.Windows.Forms.Button();
+            this.teamNames = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.gamesWon = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.gamesLost = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.gamesCount = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.gameTeam1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.gameTeam2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // lvLadder
             // 
+            this.lvLadder.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.teamNames,
+            this.gamesWon,
+            this.gamesLost,
+            this.gamesCount});
+            this.lvLadder.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
+            listViewItem1});
             this.lvLadder.Location = new System.Drawing.Point(12, 12);
             this.lvLadder.Name = "lvLadder";
             this.lvLadder.Size = new System.Drawing.Size(389, 377);
             this.lvLadder.TabIndex = 0;
             this.lvLadder.UseCompatibleStateImageBehavior = false;
+            this.lvLadder.View = System.Windows.Forms.View.Details;
             // 
             // lvGames
             // 
+            this.lvGames.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.gameTeam1,
+            this.gameTeam2});
+            this.lvGames.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
+            listViewItem2});
             this.lvGames.Location = new System.Drawing.Point(409, 12);
             this.lvGames.Name = "lvGames";
             this.lvGames.Size = new System.Drawing.Size(389, 377);
             this.lvGames.TabIndex = 1;
             this.lvGames.UseCompatibleStateImageBehavior = false;
+            this.lvGames.View = System.Windows.Forms.View.Details;
             // 
             // btnAddTeam
             // 
@@ -140,6 +162,36 @@
             this.btnAddGame.Text = "Spiel hinzufügen";
             this.btnAddGame.UseVisualStyleBackColor = true;
             // 
+            // teamNames
+            // 
+            this.teamNames.Text = "Teamname";
+            this.teamNames.Width = 106;
+            // 
+            // gamesWon
+            // 
+            this.gamesWon.Text = "Gewonnene Spiele";
+            this.gamesWon.Width = 102;
+            // 
+            // gamesLost
+            // 
+            this.gamesLost.Text = "Verlorene Spiele";
+            this.gamesLost.Width = 89;
+            // 
+            // gamesCount
+            // 
+            this.gamesCount.Text = "Gespielte Spiele";
+            this.gamesCount.Width = 88;
+            // 
+            // gameTeam1
+            // 
+            this.gameTeam1.Text = "Team 1";
+            this.gameTeam1.Width = 193;
+            // 
+            // gameTeam2
+            // 
+            this.gameTeam2.Text = "Team 2";
+            this.gameTeam2.Width = 192;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -178,6 +230,12 @@
         private System.Windows.Forms.ComboBox cbxTeam1;
         private System.Windows.Forms.ComboBox cbxTeam2;
         private System.Windows.Forms.Button btnAddGame;
+        private System.Windows.Forms.ColumnHeader teamNames;
+        private System.Windows.Forms.ColumnHeader gamesWon;
+        private System.Windows.Forms.ColumnHeader gamesLost;
+        private System.Windows.Forms.ColumnHeader gamesCount;
+        private System.Windows.Forms.ColumnHeader gameTeam1;
+        private System.Windows.Forms.ColumnHeader gameTeam2;
     }
 }
 

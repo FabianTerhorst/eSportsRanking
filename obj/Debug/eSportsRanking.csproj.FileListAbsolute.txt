@@ -1,3 +1,11 @@
 c:\users\fabia\documents\visual studio 2015\Projects\eSportsRanking\eSportsRanking\bin\Debug\eSportsRanking.exe.config
 C:\Users\fabia\Documents\GitHub\eSportsRanking\bin\Debug\eSportsRanking.exe.config
 D:\Users\Raphael\Documents\GitHub\eSportsRanking\bin\Debug\eSportsRanking.exe.config
+D:\Users\Raphael\Documents\GitHub\eSportsRanking\bin\Debug\eSportsRanking.exe
+D:\Users\Raphael\Documents\GitHub\eSportsRanking\bin\Debug\eSportsRanking.pdb
+D:\Users\Raphael\Documents\GitHub\eSportsRanking\obj\Debug\eSportsRanking.csprojResolveAssemblyReference.cache
+D:\Users\Raphael\Documents\GitHub\eSportsRanking\obj\Debug\eSportsRanking.Form1.resources
+D:\Users\Raphael\Documents\GitHub\eSportsRanking\obj\Debug\eSportsRanking.Properties.Resources.resources
+D:\Users\Raphael\Documents\GitHub\eSportsRanking\obj\Debug\eSportsRanking.csproj.GenerateResource.Cache
+D:\Users\Raphael\Documents\GitHub\eSportsRanking\obj\Debug\eSportsRanking.exe
+D:\Users\Raphael\Documents\GitHub\eSportsRanking\obj\Debug\eSportsRanking.pdb
