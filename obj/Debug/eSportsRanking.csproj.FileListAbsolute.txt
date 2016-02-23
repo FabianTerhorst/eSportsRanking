@@ -1,2 +1,3 @@
 c:\users\fabia\documents\visual studio 2015\Projects\eSportsRanking\eSportsRanking\bin\Debug\eSportsRanking.exe.config
 C:\Users\fabia\Documents\GitHub\eSportsRanking\bin\Debug\eSportsRanking.exe.config
+D:\Users\Raphael\Documents\GitHub\eSportsRanking\bin\Debug\eSportsRanking.exe.config
