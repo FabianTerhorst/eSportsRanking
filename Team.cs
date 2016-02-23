@@ -14,13 +14,18 @@ namespace eSportsRanking
         }
 
         public String name { get; set; }
-        public int points { get; set; }
-        public int lostGames { get; set; }
-        public int wonGames { get; set; }
+        public int winRatio
+        {
+            get {
+                return winCount / Math.MAX(winCount + lossCount, gameCount);
+            }
+        }
+        public int lossCount { get; set; }
+        public int winCount { get; set; }
         public int gameCount
         { get
             {
-                return lostGames + wonGames;
+                return lossCount + winCount;
             }
         }
     }
